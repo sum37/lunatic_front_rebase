@@ -12,5 +12,4 @@ const nextConfig: NextConfig = {
       ? "https://sum37.github.io/lunatic_front_rebase"
       : "",
 };
-ßß
 export default nextConfig;
