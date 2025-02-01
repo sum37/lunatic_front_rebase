@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   basePath: '/lunatic_front_rebase',
   assetPrefix:
     process.env.NODE_ENV === "production"
-      ? "https://sum37.github.io/lunatic_front_rebase"
+      ? "https://sum37.github.io/lunatic_front_rebase/"
       : "",
 };
 export default nextConfig;
