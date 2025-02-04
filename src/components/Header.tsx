@@ -7,8 +7,7 @@ import "./Header.css";
 import Image from "next/image";
 import youtubeIcon from "../../public/header_youtube.png";
 import instagramIcon from "../../public/header_insta.png";
-// import logoIcon from "/lunatic_rebase/header_logo.png";
-const logoIcon = "lunatic_front_rebase/header_logo.png";
+import logoIcon from "../../public/header_logo.png";
 
 const Header = () => {
   const pathname = usePathname();

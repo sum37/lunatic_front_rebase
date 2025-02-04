@@ -1,13 +1,15 @@
-import type { NextConfig } from "next";
+const isProd = process.env.NODE_ENV === "production";
 
-const nextConfig: NextConfig = {
-  output: 'export',
+const nextConfig = {
+  output: "export",
   images: {
-    unoptimized: true, // GitHub Pages에서 이미지 최적화 비활성화
+    unoptimized: true,
   },
-  basePath: "/lunatic_front_rebase",
-  assetPrefix: "https://sum37.github.io/lunatic_front_rebase/",
-  trailingSlash: true, // GitHub Pages에서 정적 파일 경로 문제 해결
+  basePath: isProd ? "/lunatic_front_rebase" : "", // 로컬에서는 basePath 없음
+  assetPrefix: isProd
+    ? "https://sum37.github.io/lunatic_front_rebase/"
+    : "", // 로컬에서는 assetPrefix 없음
+  trailingSlash: true,
 };
 
 export default nextConfig;
