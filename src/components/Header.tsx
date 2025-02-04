@@ -5,13 +5,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
-const youtubeIcon = "/lunatic_front_rebase/header_youtube.png";
-const instagramIcon = "/lunatic_front_rebase/header_insta.png";
-const logoIcon = "/lunatic_front_rebase/header_logo.png";
+// const youtubeIcon = "/lunatic_front_rebase/header_youtube.png";
+// const instagramIcon = "/lunatic_front_rebase/header_insta.png";
+// const logoIcon = "/lunatic_front_rebase/header_logo.png";
 
-// const youtubeIcon = "/header_youtube.png";
-// const instagramIcon = "/header_insta.png";
-// const logoIcon = "/header_logo.png";
+const youtubeIcon = "/header_youtube.png";
+const instagramIcon = "/header_insta.png";
+const logoIcon = "/header_logo.png";
 
 const Header = () => {
   const pathname = usePathname();
