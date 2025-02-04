@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import './Winners.css'; // 스타일 파일
 import { fetchBattles } from "../../utils/api"; // API 호출 함수 가져오기
 import Image from "next/image";
-import Trophy from "../../../public/trophy.png";
+const Trophy = "/lunatic_front_rebase/trophy.png";
 
 interface Battle {
   _id: string;
