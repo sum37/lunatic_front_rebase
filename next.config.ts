@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? "/lunatic_front_rebase" : "", // 로컬에서는 basePath 없음
+  // basePath: isProd ? "/lunatic_front_rebase" : "", // 로컬에서는 basePath 없음
   assetPrefix: isProd
     ? "https://sum37.github.io/lunatic_front_rebase"
     : "", // 로컬에서는 assetPrefix 없음
