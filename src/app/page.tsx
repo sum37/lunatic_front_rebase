@@ -48,7 +48,7 @@ const styles: { [key: string]: React.CSSProperties } = {
   backgroundImage: {
     width: "100%",
     height: "100vh",
-    backgroundImage: "url('/lunatic_front_rebase/main_image.jpg')",
+    backgroundImage: "url('/main_image.jpg')",
     backgroundSize: "cover", // 이미지 비율 유지하며 화면을 채움
     backgroundPosition: "center", // 이미지 중앙 정렬
     backgroundRepeat: "no-repeat", // 이미지 반복 금지
