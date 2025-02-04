@@ -1,13 +1,14 @@
 "use client";
 
+// const isProd = process.env.NODE_ENV === "production";
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import "./Header.css";
 import Image from "next/image";
-import youtubeIcon from "../../public/header_youtube.png";
-import instagramIcon from "../../public/header_insta.png";
-import logoIcon from "../../public/header_logo.png";
+const youtubeIcon = "/lunatic_front_rebase/header_youtube.png";
+const instagramIcon = "/lunatic_front_rebase/header_insta.png";
+const logoIcon = "/lunatic_front_rebase/header_logo.png";
 
 const Header = () => {
   const pathname = usePathname();
@@ -16,7 +17,7 @@ const Header = () => {
     <header className="header">
       <div className="header-left">
         <Link href="/" className="home-button">
-          <Image src={logoIcon} alt="Logo" width={137}/>
+          <Image src={logoIcon} alt="Logo" width={137} height={20}/>
         </Link>
       </div>
       
