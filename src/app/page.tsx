@@ -3,8 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Image from "next/image";
-// const Logo = "/logo.png";
-const Logo = "/lunatic_front_rebase/logo.png";
+const Logo = "/logo.png";
 
 function App() {
   return (
