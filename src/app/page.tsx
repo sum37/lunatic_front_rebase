@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import Logo from "../../public/logo.png";
+const Logo = "/lunatic_front_rebase/logo.png";
 import Image from "next/image";
 
 function App() {

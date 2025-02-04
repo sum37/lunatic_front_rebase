@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url('../../../public/main_image.jpg') no-repeat center center fixed;
+  background: url('/lunatic_front_rebase/main_image.jpg') no-repeat center center fixed;
   background-size: cover; /*사진이 창을 다 채우도록 함*/
   color: white;
 }
