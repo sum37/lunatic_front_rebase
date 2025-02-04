@@ -23,6 +23,7 @@ function Winners() {
   const itemsPerPage = 10;
 
   useEffect(() => {
+    console.log("use Effect 실행됨");
     const getBattles = async () => {
       const data = await fetchBattles();
       setBattleData(data);
