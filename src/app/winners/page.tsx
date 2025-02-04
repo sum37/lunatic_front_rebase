@@ -4,8 +4,8 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import { fetchBattles } from "../../utils/api";
 
-// const Trophy = "/trophy.png";
-const Trophy = "/lunatic_front_rebase/trophy.png";
+const Trophy = "/trophy.png";
+// const Trophy = "/lunatic_front_rebase/trophy.png";
 
 interface Battle {
   _id: string;
@@ -125,7 +125,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    background: "url('/lunatic_front_rebase/main_image.jpg') no-repeat center center fixed",
+    background: "url('/main_image.jpg') no-repeat center center fixed",
     backgroundSize: "cover",
     color: "white",
     position: "relative", // 오버레이 박스의 기준

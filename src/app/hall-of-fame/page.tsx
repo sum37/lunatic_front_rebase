@@ -4,15 +4,15 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import { fetchTop5Winners, fetchTop5Judges, fetchTop5Performers } from "../../utils/api";
 
-// const HOF = "/hof.png";
-// const hof_battle = "/hof_battle.png";
-// const hof_perf = "/hof_perf.png";
-// const hof_judge = "/hof_judge.png";
+const HOF = "/hof.png";
+const hof_battle = "/hof_battle.png";
+const hof_perf = "/hof_perf.png";
+const hof_judge = "/hof_judge.png";
 
-const HOF = "/lunatic_front_rebase/hof.png";
-const hof_battle = "/lunatic_front_rebase/hof_battle.png";
-const hof_perf = "/lunatic_front_rebase/hof_perf.png";
-const hof_judge = "l/unatic_front_rebase/hof_judge.png";
+// const HOF = "/lunatic_front_rebase/hof.png";
+// const hof_battle = "/lunatic_front_rebase/hof_battle.png";
+// const hof_perf = "/lunatic_front_rebase/hof_perf.png";
+// const hof_judge = "l/unatic_front_rebase/hof_judge.png";
 
 import { Winner, Judge, Performer } from "../../types/types";
 
@@ -125,7 +125,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    background: "url('/lunatic_front_rebase/main_image.jpg') no-repeat center center fixed",
+    background: "url('/main_image.jpg') no-repeat center center fixed",
     backgroundSize: "cover",
     color: "white",
     position: "relative",

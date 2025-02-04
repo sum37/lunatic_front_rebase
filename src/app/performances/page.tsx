@@ -4,8 +4,8 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import { fetchPerformances } from "../../utils/api.js";
 
-const Stage = "/lunatic_front_rebase/stage.png";
-// const Stage = "/stage.png";
+// const Stage = "/lunatic_front_rebase/stage.png";
+const Stage = "/stage.png";
 
 interface Performance {
   _id: string;
@@ -123,7 +123,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    background: "url('/lunatic_front_rebase/main_image.jpg') no-repeat center center fixed",
+    background: "url('/main_image.jpg') no-repeat center center fixed",
     backgroundSize: "cover",
     color: "white",
     position: "relative",
