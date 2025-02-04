@@ -18,6 +18,7 @@ interface Battle {
 }
 
 function Winners() {
+  console.log("hihihihi");
   const [battleData, setBattleData] = useState<Battle[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
