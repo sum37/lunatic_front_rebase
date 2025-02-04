@@ -29,6 +29,7 @@ function Winners() {
       setBattleData(data);
     };
     getBattles();
+    console.log("API", battleData);
   }, []);
 
   const totalPages = Math.ceil(battleData.length / itemsPerPage);
